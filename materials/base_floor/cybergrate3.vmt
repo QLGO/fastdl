@@ -1,0 +1,20 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "base_floor/cybergrate3"
+	$translucent 1
+	$nocull 1
+
+	
+	Proxies 
+	{
+		
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "45"
+		}
+	}
+	
+	%compilenonsolid 1
+}

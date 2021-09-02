@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "gfx/misc/railcorethin_mono"
+	"$additive" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

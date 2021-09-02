@@ -1,0 +1,20 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ql/sensor"
+	$translucent 1
+	$alpha .3
+	
+
+	Proxies
+	{
+		Sine 
+		{
+			resultVar	$alpha 
+			sineperiod	0.8
+			sinemin		0.1
+			sinemax		0.3
+		}
+	}
+	
+	%compilenonsolid 1
+}

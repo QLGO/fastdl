@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "sfx/ntrl_techfloor_kc"
+	$alphatest 1
+
+	
+	Proxies 
+	{
+		
+		AnimatedTexture
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "160"
+		}
+	}
+	
+	%compilenonsolid 1
+}

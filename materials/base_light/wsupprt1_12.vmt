@@ -1,0 +1,39 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "base_light/wsupprt1_12"
+	$nodecal 1
+	$selfillum 1
+	$selfillumtint "[1 1 1]"
+	$br 1
+	$mult .75
+	
+	Proxies
+	{
+		Sine 
+		{
+			resultVar	$br 
+			sineperiod	0.7
+			sinemin		0.3
+			sinemax		1
+		}
+		
+		Equals
+		{
+			srcVar1		$br
+			resultVar	"$selfillumtint[0]"
+		}		
+		
+		Equals
+		{
+			srcVar1		$br
+			resultVar	"$selfillumtint[1]"
+		}		
+		
+		Multiply
+		{
+			srcVar1		"$br"
+			srcVar2		"$mult"
+			resultVar	"$selfillumtint[2]"
+		}
+	}
+}

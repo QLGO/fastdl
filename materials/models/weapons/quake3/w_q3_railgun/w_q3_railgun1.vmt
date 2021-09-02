@@ -1,0 +1,16 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "models/weapons/quake3/w_q3_railgun/w_q3_railgun1"
+	"$texture2" "models/weapons/quake3/w_q3_railgun/railgun4"
+	"$color2" "[0 150 0]"
+	"$model" 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" 1
+			"texturescrollangle" 90
+		}
+	}
+}

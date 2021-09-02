@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "base_light/ceil1_38_10_trans"
+	"$nodecal" "1"
+	%compilenonsolid 1
+}

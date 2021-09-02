@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/mapobjects/teleporter/teleporter_edge"
+	
+	Proxies 
+	{
+		
+		AnimatedTexture
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "160"
+		}
+	}
+}

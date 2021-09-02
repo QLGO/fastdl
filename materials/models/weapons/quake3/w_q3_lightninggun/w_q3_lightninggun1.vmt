@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/quake3/w_q3_lightninggun/w_q3_lightninggun1"
+	"$envmap" "models/items/quake3/envmapdim"
+	"$envmapsphere" 1
+	
+	"VertexLitGeneric_HDR_DX9"
+	{
+		"$envmaptint" "[.1 .1 .1]"
+	}
+}

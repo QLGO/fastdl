@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "sfx/bouncepad_concrete_dark"
+	
+	Proxies 
+	{
+		
+		AnimatedTexture
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "160"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/mapobjects/teleporter/energy"
+	"$nocull" 1
+	"$additive" 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"textureScrollVar" "$basetexturetransform"
+			"textureScrollRate" 2
+			"textureScrollAngle" 45.00
+		}
+		
+		Sine
+		{
+			sineperiod	.4
+			sinemin		1
+			sinemax		.1
+			resultVar 	"$alpha"
+		}
+   }
+}

@@ -1,0 +1,5 @@
+"MonitorScreen"
+{
+	"$basetexture"	"quake/overlays/crosshair_r"
+	"$translucent"	"1"
+}

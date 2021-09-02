@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "sfx/bounce_concrete"
+	
+	Proxies 
+	{
+		
+		AnimatedTexture
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "160"
+		}
+	}
+}

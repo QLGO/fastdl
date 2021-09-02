@@ -1,0 +1,62 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "base_light/proto_lightred"
+	$color "[5 5 5]"
+	$val 1
+	$mult 5
+	
+	Proxies
+	{
+		Sine 
+		{
+			resultVar	"$val"
+			sineperiod	1
+			sinemin		0
+			sinemax		2
+		}
+		
+		Int 
+		{
+			srcVar1		"$val"
+			resultVar	"$val"
+		}
+		
+		Multiply
+		{
+			srcVar1		"$val"
+			srcVar2		"$mult"
+			resultVar	"$val"
+		}
+
+		Clamp
+		{
+			srcVar1		"$val"
+			min			1
+			max			5
+			resultVar	"$val"
+		}
+
+
+
+
+		Equals
+		{
+			srcVar1		"$val"
+			resultVar	"$color[0]"
+		}
+
+		Equals
+		{
+			srcVar1		"$val"
+			resultVar	"$color[1]"
+		}
+
+		Equals
+		{
+			srcVar1		"$val"
+			resultVar	"$color[2]"
+		}	
+		
+	}
+
+}
