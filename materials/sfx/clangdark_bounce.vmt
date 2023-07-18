@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "sfx/clangdark_bounce"
+	
+	Proxies 
+	{
+		
+		AnimatedTexture
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "160"
+		}
+	}
+}

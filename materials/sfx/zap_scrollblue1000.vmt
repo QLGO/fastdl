@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sfx/zap_scroll2blue"
+	"$additive" "1"
+
+	Proxies
+	{
+	
+		TextureScroll
+		{
+			textureScrollVar	"$basetexturetransform"
+			textureScrollRate	"2"
+			textureScrollAngle	"-25"
+		}
+	}
+}

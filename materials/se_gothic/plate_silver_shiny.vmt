@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "se_gothic/plate_silver"
+	"$envmap" "effects/tinfx"
+	"$envmaptint" "[0.1 0.1 0.1]"
+	"$envmaplightscale" "1"
+	"$envmapcontrast" ".2"
+}

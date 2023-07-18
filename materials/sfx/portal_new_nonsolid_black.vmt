@@ -1,0 +1,37 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sfx/portalnoise"
+	$color "[0.25 0.25 0.25]"
+	$alpha 0.88
+	%compilenonsolid 1
+	
+	"$center"		"[0.5 0.5]"
+	"$scale"        "[0.65 0.65]"
+	"$rotate"       "[0 0]"
+	"$translate"    "[0 0]"
+	
+	Proxies
+	{		
+		LinearRamp
+		{
+			rate 0.01
+			resultVar 	"$translate[0]"
+		}
+		
+		LinearRamp
+		{
+			rate -0.11
+			resultVar 	"$translate[1]"
+		}
+		
+		
+		TextureTransform
+		{	
+			centerVar		"$center"
+			scaleVar		"$scale"
+			rotateVar		"$rotate"
+			translateVar	"$translate"
+			resultVar		"$basetexturetransform"
+		}
+	}
+}

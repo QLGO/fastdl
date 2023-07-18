@@ -1,0 +1,37 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "sfx/largerblock3b3_pent"
+	"$selfillum" 1
+	
+
+	"$br" 1
+
+	Proxies
+	{
+		Sine 
+		{
+			resultVar	"$br"
+			sineperiod	"2"
+			sinemin		"-1"
+			sinemax		"1"
+		}
+
+		Equals
+		{
+			srcVar1		"$br"
+			resultVar	"$selfillumtint[0]"
+		}		
+		
+		Equals
+		{
+			srcVar1		"$br"
+			resultVar	"$selfillumtint[1]"
+		}	
+		
+		Equals
+		{
+			srcVar1		"$br"
+			resultVar	"$selfillumtint[2]"
+		}	
+	}
+}

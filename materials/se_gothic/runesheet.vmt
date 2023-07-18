@@ -1,0 +1,52 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "se_gothic/runesheet"
+	"$additive" 1
+	"$nocull" 1
+	"$selfillum" 1
+	
+	"$br" 1
+	"$mult" 1
+	"$min" 0
+	
+	Proxies
+	{
+		Sine 
+		{
+			resultVar	"$br"
+			sineperiod	"8"
+			sinemin		"-1"
+			sinemax		"1"
+		}
+		
+		LessOrEqual
+		{
+			lessEqualVar "$min"
+			greaterVar	 "$br"
+			srcVar1		 "$br"
+			srcVar2		 "$min"
+			resultVar	 "$br"
+		}
+		
+		Equals
+		{
+			srcVar1		"$br"
+			resultVar	"$selfillumtint[0]"
+		}		
+		
+		Multiply
+		{
+			srcVar1		"$br"
+			srcVar2		"$mult"
+			resultVar	"$selfillumtint[1]"
+		}	
+		
+		Multiply
+		{
+			srcVar1		"$br"
+			srcVar2		"$mult"
+			resultVar	"$selfillumtint[2]"
+		}
+	}
+	
+}
