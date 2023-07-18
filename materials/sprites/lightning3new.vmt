@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/lightning3new"
+	"$additive" 1
+	"$color" "[6 6 6]"
+	
+	Proxies 
+	{
+		
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "160"
+		}
+	}
+}

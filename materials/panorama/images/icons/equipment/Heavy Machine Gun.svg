@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="18.468479mm"
+   height="21.872227mm"
+   viewBox="0 0 18.468478 21.87223"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Heavy Machine Gun.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="4"
+     inkscape:cx="3.125"
+     inkscape:cy="56.375"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 7.8487648 : 1"
+       inkscape:vp_y="0 : 1000.0001 : 0"
+       inkscape:vp_z="17.95558 : 7.8487648 : 1"
+       inkscape:persp3d-origin="8.9777899 : 4.8532645 : 1"
+       id="perspective7658" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-126.37426,-88.941664)">
+    <path
+       style="fill:#cda401;stroke-width:0.352778"
+       d="m 126.43628,109.57916 v -1.23472 h 3.88055 3.88056 v 1.23472 1.23473 h -3.88056 -3.88055 z m 10.58333,0 v -1.23472 h 3.88056 3.88055 v 1.23472 1.23473 h -3.88055 -3.88056 z m -10.58333,-7.40833 v -5.468055 h 3.88055 3.88056 v 5.468055 5.46806 h -3.88056 -3.88055 z m 10.58333,0 v -5.468055 h 3.88056 3.88055 v 5.468055 5.46806 h -3.88055 -3.88056 z m -10.41365,-7.672916 c 0.32487,-2.102237 1.63559,-4.571808 2.76039,-5.200976 0.84686,-0.473699 1.05411,-0.473699 1.90097,0 1.1248,0.629168 2.43551,3.098739 2.76038,5.200976 l 0.2317,1.499305 h -3.94257 -3.94257 z m 10.58333,0 c 0.32488,-2.102237 1.63559,-4.571808 2.76039,-5.200976 0.84686,-0.473699 1.05411,-0.473699 1.90097,0 1.1248,0.629168 2.43551,3.098739 2.76039,5.200976 l 0.2317,1.499305 h -3.94257 -3.94258 z"
+       id="path29464" />
+  </g>
+</svg>

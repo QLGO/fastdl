@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="17.438902mm"
+   height="16.879892mm"
+   viewBox="0 0 17.438901 16.879894"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Grenade.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="4"
+     inkscape:cx="-78.125"
+     inkscape:cy="-9.875"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 7.8933946 : 1"
+       inkscape:vp_y="0 : 1000.0001 : 0"
+       inkscape:vp_z="17.955578 : 7.8933946 : 1"
+       inkscape:persp3d-origin="8.9777892 : 4.8978946 : 1"
+       id="perspective7658" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-111.27997,-95.408213)">
+    <path
+       style="fill:#049014;stroke-width:0.352778"
+       d="m 111.346,106.72626 c 0,0 -0.11074,-1.05346 -0.0454,-1.57438 0.0935,-0.74442 0.61891,-2.16402 0.61891,-2.16402 0.45802,-1.47288 1.10584,-2.11058 2.303,-2.93791 l 1.3567,-0.937577 0.0134,-0.97014 0.0134,-0.97013 h 1.05833 1.05834 v -0.88195 -0.88194 h 1.94811 1.94811 l 2.81439,1.41505 c 1.5479,0.77827 2.8146,1.45296 2.81487,1.4993 2.7e-4,0.0463 0.25491,1.43363 0.56587,3.082867 0.31096,1.64923 0.64176,3.40451 0.73511,3.90062 l 0.16973,0.90201 -0.5278,0.43804 c -0.66312,0.55034 -0.68509,0.50799 -1.64545,-3.1728 -0.43732,-1.67607 -0.89481,-3.20307 -1.01667,-3.39332 -0.30738,-0.479887 -4.44316,-2.202327 -4.44316,-2.202327 l -0.0113,1.33736 c 1.42591,0.57447 2.36854,1.312307 3.19097,2.715787 0.45602,0.7782 0.93438,2.07331 1.06304,2.87802 0.34301,1.07932 0.12737,1.79542 -0.20183,2.82223 -0.63955,1.99484 -2.30082,4.03298 -3.65884,4.38836 -5.21129,0.90449 -9.0215,-0.38059 -10.12184,-5.29315 z"
+       id="path9763"
+       sodipodi:nodetypes="cacccccccccccssscccscccccccc" />
+  </g>
+</svg>

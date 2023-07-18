@@ -1,0 +1,21 @@
+"Sprite"
+{
+	"$basetexture" "sprites/q3/plasmaa"
+	"$additive" "1"
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+
+	"$angle" "0"
+
+	"Proxies"
+	{
+	
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "160"
+		}
+
+	}
+}

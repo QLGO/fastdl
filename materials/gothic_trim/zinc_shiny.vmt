@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "gothic_trim/zinc_shiny"
+	"$envmap" "effects/tinfx"
+	"$basealphaenvmapmask" "1"
+	"$envmaplightscale" "1"
+	"$envmapcontrast" ".2"
+}

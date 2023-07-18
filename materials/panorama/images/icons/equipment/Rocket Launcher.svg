@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="21.151411mm"
+   height="19.736019mm"
+   viewBox="0 0 21.151409 19.736021"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Rocket Launcher.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2"
+     inkscape:cx="-187.25"
+     inkscape:cy="131.75"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 5.712557 : 1"
+       inkscape:vp_y="0 : 1000.0001 : 0"
+       inkscape:vp_z="17.955577 : 5.712557 : 1"
+       inkscape:persp3d-origin="8.9777889 : 2.7170566 : 1"
+       id="perspective7658" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-132.35252,-76.164509)">
+    <path
+       style="fill:#fe0808;fill-opacity:1;stroke-width:0.352778"
+       d="m 149.40454,95.270108 c -1.19898,-0.618987 -12.5602,-10.452762 -12.5602,-10.452762 l 1.3042,-1.621436 -2.63595,-2.176118 0.55255,-0.659149 2.73183,2.15832 1.33001,-1.528646 c 0,0 11.16509,9.051834 12.25833,10.351069 1.14506,1.360833 1.29464,2.418329 0.96572,3.703212 -0.19064,0.689532 -0.59467,0.85593 -1.55768,0.85593 -0.64223,0 -1.7172,-0.283689 -2.38881,-0.63042 z m -17.05202,-9.602493 3.64103,-1.077884 3.22997,2.87154 -3.42825,1.148174 z m 7.19056,-5.818476 0.12695,-3.68463 3.7509,2.979074 -0.47395,3.452951 z"
+       id="path21853"
+       sodipodi:nodetypes="ccccccccccccccccccccc" />
+  </g>
+</svg>

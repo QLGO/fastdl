@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="14.287502mm"
+   height="16.227781mm"
+   viewBox="0 0 14.287501 16.227783"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Machine Gun.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="320.67292"
+     inkscape:cy="18.73833"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 7.241284 : 1"
+       inkscape:vp_y="0 : 1000.0001 : 0"
+       inkscape:vp_z="17.955578 : 7.241284 : 1"
+       inkscape:persp3d-origin="8.9777893 : 4.2457835 : 1"
+       id="perspective7658" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-89.813708,-91.728828)">
+    <path
+       style="fill:#fefe01;stroke-width:0.352778"
+       d="m 91.224815,91.728828 h 2.293056 2.293055 v 0.555365 0.555364 l 1.407523,0.591163 1.556351,0.427461 v 0.869255 0.875109 l -1.556351,0.421611 -1.407523,0.59117 v 0.75795 0.75795 l 1.407523,0.59116 1.556351,0.415764 v 0.88096 0.89265 l -1.556351,0.40407 -1.407523,0.59116 v 0.58156 0.58156 l 1.407523,0.59117 1.556351,0.42746 v 0.86925 0.8868 l -1.556351,0.40992 -1.407523,0.59117 v 0.55536 0.55537 h -2.262047 -2.262047 z m -1.411107,13.405552 v -1.41111 h 0.352778 0.518142 v 1.41111 1.41111 h -0.518142 -0.352778 z m 9.172222,-0.17639 v -0.88194 h 1.23472 1.3174 v 0.88194 0.88195 h -1.3174 -1.23472 z m 2.82222,0 v -0.57386 l 1.14653,0.11054 c 0.63059,0.0608 1.14653,0.2693 1.14653,0.46332 0,0.19403 -0.51594,0.40253 -1.14653,0.46333 l -1.14653,0.11054 z m -11.994442,-4.93888 v -1.587504 h 0.352778 0.518142 v 1.587504 1.5875 h -0.518142 -0.352778 z m 9.172222,0 v -0.881944 h 1.23472 1.3174 v 0.881944 0.88194 h -1.3174 -1.23472 z m 2.82222,0 v -0.573874 l 1.14653,0.11055 c 0.63059,0.0608 1.14653,0.26929 1.14653,0.463324 0,0.19403 -0.51594,0.40252 -1.14653,0.46332 l -1.14653,0.11055 z M 89.813708,94.551046 v -1.411107 h 0.352778 0.518142 v 1.411107 1.41112 h -0.518142 -0.352778 z m 9.172222,0.17639 v -0.881941 h 1.23472 1.3174 v 0.881941 0.88195 h -1.3174 -1.23472 z m 2.82222,0 V 94.15357 l 1.14653,0.110546 c 0.63059,0.0608 1.14653,0.2693 1.14653,0.46332 0,0.19403 -0.51594,0.40253 -1.14653,0.46333 l -1.14653,0.11054 z M 90.918902,105.13309 v -1.41111 h 0.352778 0.352777 v 1.41111 1.41111 H 91.27168 90.918902 Z m 0,-5.11527 v -1.587505 h 0.352778 0.352777 v 1.587505 1.5875 H 91.27168 90.918902 Z m 0,-5.468065 v -1.411109 h 0.352778 0.352777 v 1.411109 1.41112 H 91.27168 90.918902 Z"
+       id="path12542"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccccscccccccccccccccccccccccsscccccccccccccccccccccccccccccc" />
+  </g>
+</svg>

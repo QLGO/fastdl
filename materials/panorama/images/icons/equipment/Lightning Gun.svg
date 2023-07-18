@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="19.755552mm"
+   height="19.733957mm"
+   viewBox="0 0 19.755551 19.733959"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Lightning Gun.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="-75.837202"
+     inkscape:cy="10.429825"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 10.74746 : 1"
+       inkscape:vp_y="0 : 1000.0001 : 0"
+       inkscape:vp_z="17.955578 : 10.74746 : 1"
+       inkscape:persp3d-origin="8.9777891 : 7.7519596 : 1"
+       id="perspective7658" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-87.089908,-90.207652)">
+    <path
+       style="fill:#fefeaf;stroke-width:0.352778"
+       d="m 87.089908,109.28653 c 0,-0.80982 3.924537,-9.553878 4.287999,-9.553878 0.139375,0 0.303155,0.498478 0.363955,1.107738 l 0.110546,1.10773 2.822222,-3.979357 2.822223,-3.979354 0.101789,1.195927 c 0.05598,0.65776 0.176834,1.412005 0.268555,1.676101 l 0.166765,0.480174 2.328118,-3.56698 2.32812,-3.566979 h 2.07763 2.07763 v 4.531435 4.531435 l -0.66846,0.604954 -0.66847,0.604954 -0.25011,-2.154965 c -0.13756,-1.185231 -0.36775,-2.107543 -0.51153,-2.049583 -0.14378,0.05796 -1.58067,1.613506 -3.19309,3.45677 -1.612422,1.843268 -3.054579,3.400558 -3.204796,3.460668 -0.150217,0.0601 -0.403404,-0.54304 -0.562637,-1.34034 l -0.289514,-1.44962 -2.530666,3.40022 -2.530666,3.40023 -0.308697,-1.53072 -0.308696,-1.53072 -2.099527,2.88847 c -1.154739,1.58865 -2.218589,2.89834 -2.36411,2.91041 -0.14552,0.0121 -0.264583,-0.28255 -0.264583,-0.65472 z"
+       id="path12326" />
+  </g>
+</svg>
