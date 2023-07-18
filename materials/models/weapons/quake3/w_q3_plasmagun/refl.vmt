@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$envmap" "models/items/quake3/tinfxb"
+	"$envmaptint" "[.1 .1 .1]"
+	"$additive" 1
+}

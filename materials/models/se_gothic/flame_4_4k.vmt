@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sfx/flame"
+	"$additive" 1
+	"$nocull" 1
+	
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "10"
+		}
+	} 
+}

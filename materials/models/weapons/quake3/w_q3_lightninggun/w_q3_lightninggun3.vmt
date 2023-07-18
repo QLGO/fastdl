@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/weapons/quake3/w_q3_lightninggun/w_q3_lightninggun3"
+	"$additive" 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+		"textureScrollVar" "$basetexturetransform"
+		"textureScrollRate" 5
+		"textureScrollAngle" 80.00
+		}
+   }
+}

@@ -1,0 +1,29 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/envmapgold2"
+	"$additive" 1
+	
+	"$angle" 0.0
+	"$center" "[0.5 -8]"
+	"$scale" "[5 .5]"
+
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" 20
+			"initialValue" 0.0
+			"resultVar" "$angle"
+		}
+
+
+		"TextureTransform"
+		{
+			"centerVar" "$center"
+			"rotateVar" "$angle"
+			"scaleVar" "$scale"
+			"resultVar" "$basetexturetransform"
+		}
+   }
+}

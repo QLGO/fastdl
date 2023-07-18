@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/gfx/VGUI/trans_background"
+	"$translucent" 1
+	
+}

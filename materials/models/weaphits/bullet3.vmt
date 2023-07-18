@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/weaphits/bullet3"
+	"$additive" 1
+	"$nocull" 1
+}

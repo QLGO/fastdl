@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/weaphits/ring02_2"
+	"$translucent" 1
+	"$nocull" 1
+}

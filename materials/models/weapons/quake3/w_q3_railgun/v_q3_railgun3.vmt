@@ -1,0 +1,62 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/weapons/quake3/w_q3_railgun/w_q3_railgun1"
+	"$color" "[5 0 0]"
+	"$model" 1
+	"$additive" 1
+	
+	"$col_r" "5"
+	"$col_g" "0"
+	"$col_b" "0"
+	"$col" "[5 0 0]"
+	"$factor" "0.019607"
+	
+	"Proxies"
+	{
+		"ConVar"
+		{
+			convar 		"ammo_57mm_max"
+			resultVar  	"$col_r"
+		}
+		
+		"ConVar"
+		{
+			convar 		"ammo_buckshot_max"
+			resultVar  	"$col_g"
+		}
+		
+		"ConVar"
+		{
+			convar 		"mp_ggtr_always_upgrade"
+			resultVar  	"$col_b"
+		}
+		
+		"Multiply"
+		{
+			"srcVar1"	"$col_r"
+			"srcVar2"	"$factor"
+			"resultVar"	"$col[0]"
+		}
+		
+		"Multiply"
+		{
+			"srcVar1"	"$col_g"
+			"srcVar2"	"$factor"
+			"resultVar"	"$col[1]"
+		}
+		
+		"Multiply"
+		{
+			"srcVar1"	"$col_b"
+			"srcVar2"	"$factor"
+			"resultVar"	"$col[2]"
+		}
+		
+		"Equals"
+		{
+			"srcVar1"	"$col"
+			"resultVar"	"$color"
+		}
+		
+	}
+}
