@@ -1,0 +1,12 @@
+"SpriteCard"
+{
+	"$basetexture" "quake/numbers"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$translucent" "1"
+	
+	"$ignorez" "1"
+	
+	"$minsize" "0.01"
+	"$maxsize" "0.025"
+}

@@ -1,0 +1,22 @@
+"monitorscreen"
+{
+	"$basetexture"	"quake/overlays/hud"
+	"$translucent"	"1"
+	$texture2 "quake/overlays/crosshair"
+	
+	Proxies 
+	{
+		
+		"ConVar"
+		{
+			convar 		"ammo_9mm_max"
+			resultVar  	"$frame"
+		}
+		
+		"ConVar"
+		{
+			convar 		"ammo_556mm_max"
+			resultVar  	"$frame2"
+		}
+	}
+}
