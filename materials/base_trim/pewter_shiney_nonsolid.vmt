@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "base_trim/pewter_shiney"
+	"$envmap" "effects/tinfx"
+	"$envmaplightscale" "1"
+	"$envmapcontrast" ".2"
+	%compilenonsolid 1
+}

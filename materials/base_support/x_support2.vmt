@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "base_support/x_support2"
+	"$alphatest" "1"
+	"$nocull" "1"
+}

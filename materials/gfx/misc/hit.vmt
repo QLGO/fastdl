@@ -1,0 +1,5 @@
+"SpriteCard"
+{
+	"$basetexture" "gfx/misc/hit"
+	"$additive" "1"
+}

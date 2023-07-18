@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "base_floor/proto_grate4"
+	"$alphatest" 1
+	"$nocull" 1
+}

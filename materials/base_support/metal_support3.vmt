@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "base_support/metal_support3"
+	$additive 1
+}

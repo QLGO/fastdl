@@ -1,0 +1,39 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "base_light/s_proto_light"
+		$nodecal 1
+	
+	$selfillum 1
+	$selfillumtint "[1 1 1]"
+	
+	$br 1
+	
+	Proxies
+	{
+		Sine 
+		{
+			resultVar	$br 
+			sineperiod	0.1
+			sinemin		1
+			sinemax		10
+		}
+		
+		Equals
+		{
+			srcVar1		$br
+			resultVar	"$selfillumtint[0]"
+		}		
+		
+		Equals
+		{
+			srcVar1		$br
+			resultVar	"$selfillumtint[1]"
+		}	
+		
+		Equals
+		{
+			srcVar1		$br
+			resultVar	"$selfillumtint[2]"
+		}	
+	}
+}

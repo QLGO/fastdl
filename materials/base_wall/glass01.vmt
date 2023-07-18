@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$surfaceprop" "Glass"
+	"$envmap" "effects/tinfx"
+	"$envmaplightscale" 1
+	"$envmaplightscaleminmax" "[0 5]"
+	$alpha 0.5
+	$nocull 1
+}

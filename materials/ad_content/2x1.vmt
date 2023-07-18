@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ad_content/ad2x1"
+	"$envmap" "effects/tinfx"
+	"$envmaptint" "[0.02 0.02 0.02]"
+}

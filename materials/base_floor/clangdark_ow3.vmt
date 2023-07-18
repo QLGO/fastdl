@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "base_floor/clangdark_ow3"
+	
+	Proxies 
+	{
+		
+		AnimatedTexture
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "60"
+		}
+	}
+
+}
