@@ -1,0 +1,29 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/quadmap2"
+	"$additive" 1
+	
+	"$angle" 0.0
+	"$center" "[-1 -1]"
+	"$scale" "[3 3]"
+
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" 10
+			"initialValue" 0.0
+			"resultVar" "$angle"
+		}
+
+
+		"TextureTransform"
+		{
+			"centerVar" "$center"
+			"rotateVar" "$angle"
+			"scaleVar" "$scale"
+			"resultVar" "$basetexturetransform"
+		}
+   }
+}

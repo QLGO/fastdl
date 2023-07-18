@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/mapobjects/teleporter/transparency2"
+	
+	"$selfillum" 1
+	"$nocull" 1
+	"$additive" 1
+	
+	Proxies
+	{
+		"TextureScroll"
+		{
+			"textureScrollVar" "$basetexturetransform"
+			"textureScrollRate" .2
+			"textureScrollAngle" 67.5
+		}
+   }
+}

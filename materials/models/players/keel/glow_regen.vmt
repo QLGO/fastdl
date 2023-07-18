@@ -1,0 +1,61 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/regenmap2"
+	"$additive" 1
+	"$alpha" 1
+	
+	"$angle" 0.0
+	"$translate" "[0.0 0.0]"
+	"$center" "[-1 -1]"
+	"$scale" "[3 3]"
+	"$val" 1
+	
+	"$zero" 0
+	"$one" 1
+	"$half" 0.5
+
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" "10"
+			"initialValue" "0.0"
+			"resultVar" "$angle"
+		}
+
+
+		"TextureTransform"
+		{
+			"centerVar" 	"$center"
+			"rotateVar" 	"$angle"
+			"scaleVar" 		"$scale"
+			"resultVar" 	"$basetexturetransform"
+		}
+		
+		
+		
+		"LinearRamp" 
+		{
+			"rate"	1
+			"resultVar"		"$val"
+		}
+		
+		"WrapMinMax"
+		{
+			"srcVar1"		"$val"
+			"minVal"		"0"
+			"maxVal"		"1.05"
+			"resultVar"		"$val"
+		}
+		
+		"LessOrEqual"
+		{
+			"srcVar1"		"$val"
+			"srcVar2"		"$one"
+			"greaterVar"	"$one"
+			"lessEqualVar"	"$zero"
+			"resultVar"		"$alpha"
+		}
+   }
+}

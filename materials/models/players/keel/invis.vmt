@@ -1,0 +1,38 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "effects/invismap"
+	"$additive" 1
+	
+	"$angle" 0.0
+	"$translate" "[0.0 0.0]"
+	"$center" "[0.5 0.1]"
+	"$scale" "[3 3]"
+
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" 10
+			"initialValue" 0.0
+			"resultVar" "$angle"
+		}
+		
+		"Sine"
+		{
+			"sineperiod" 5
+			"sinemin" -10.0
+			"sinemax" 10.0
+			"resultVar" "$angle"
+		}
+
+
+		"TextureTransform"
+		{
+			"centerVar" "$center"
+			"rotateVar" "$angle"
+			"scaleVar" "$scale"
+			"resultVar" "$basetexturetransform"
+		}
+   }
+}

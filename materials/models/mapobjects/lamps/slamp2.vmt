@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/mapobjects/lamps/slamp2"	
+	"$envmap" "effects/envmapdimb"
+	"$additive" 1
+	"$nocull" 1
+}

@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "gothic_light/ironcrosslt2_1000"
+	
+	$nodecal 1
+	
+	$selfillum 1
+	$selfillumtint "[7.2 7.2 7.2]"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/mapobjects/lamps/gratelamp"
+	"$nocull" 1
+	"$alphatest" 1
+}

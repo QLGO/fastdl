@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/mapobjects/banner_strgg"
+	"$alphatest" 1
+	"$nocull" 1
+}

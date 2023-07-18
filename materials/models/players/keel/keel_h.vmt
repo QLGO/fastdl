@@ -1,0 +1,222 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/players/keel/keel_h"
+	"$halflambert" "1"
+	
+	"$detail" "models/players/keel/keel_h"
+	"$detailblendmode" "2"
+	"$detailtint" "[1 1 1]"
+	"$detailscale" "1.0"
+	
+	"$nodecal" "1"
+	
+	"$color" "[0.75 0.75 0.75]"
+	"$theirteam" "1"
+	"$sameteam" "0"
+	"$theirhealth" "1"
+	"$ourteam" "1"		// 1 = spec, 2 = red, 3 = blue
+	"$zero" "0"
+	"$desiredcolor" "0" // 0 = gray, 1 = green, 2 = red, 3 = blue
+	
+	"$col_team_red"		"[0.5 0.164 0.164]"
+	"$col_team_blue"	"[0.164 0.164 0.8]"
+	"$col_team_enemy"	"[0.4 1	0.25]"
+	
+	"$col_team_red_r"		"0.5"
+	"$col_team_red_g"		"0.164"
+	"$col_team_red_b"		"0.164"
+	"$col_team_blue_r"		"0.164"
+	"$col_team_blue_g"		"0.164"
+	"$col_team_blue_b"		"0.8"
+	"$col_team_enemy_r"		"0.4"
+	"$col_team_enemy_g"		"1.0"
+	"$col_team_enemy_b"		"0.25"
+	
+	"proxies"
+	{
+		"PlayerTeamMatch"
+		{
+			"resultVar" "$sameteam"
+		}
+		
+		"GetTeamNumber"
+		{
+			"resultVar" "$theirteam"
+		}
+			
+		"ConVar"
+		{
+			convar 		"ammo_556mm_small_max"
+			resultVar  	"$ourteam"
+		}
+		
+		
+		
+		
+		"ConVar"
+		{
+			convar 		"ammo_556mm_box_max"
+			resultVar  	"$col_team_red_r"
+		}
+		
+		"ConVar"
+		{
+			convar 		"ammo_338mag_max"
+			resultVar  	"$col_team_red_g"
+		}
+		
+		"ConVar"
+		{
+			convar 		"ammo_357sig_max"
+			resultVar  	"$col_team_red_b"
+		}
+		
+		"ConVar"
+		{
+			convar 		"ammo_45acp_max"
+			resultVar  	"$col_team_blue_r"
+		}
+		
+		"ConVar"
+		{
+			convar 		"ammo_357sig_min_max"
+			resultVar  	"$col_team_blue_g"
+		}
+		"ConVar"
+		{
+			convar 		"ammo_357sig_p250_max"
+			resultVar  	"$col_team_blue_b"
+		}
+		
+		"ConVar"
+		{
+			convar 		"ammo_762mm_max"
+			resultVar  	"$col_team_enemy_r"
+		}
+		
+		"ConVar"
+		{
+			convar 		"ammo_357sig_small_max"
+			resultVar  	"$col_team_enemy_g"
+		}
+		
+		"ConVar"
+		{
+			convar 		"ammo_50AE_max"
+			resultVar  	"$col_team_enemy_b"
+		}
+		
+		
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_red_r"
+			"resultVar"	"$col_team_red[0]"
+		}
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_red_g"
+			"resultVar"	"$col_team_red[1]"
+		}
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_red_b"
+			"resultVar"	"$col_team_red[2]"
+		}
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_blue_r"
+			"resultVar"	"$col_team_blue[0]"
+		}
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_blue_g"
+			"resultVar"	"$col_team_blue[1]"
+		}
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_blue_b"
+			"resultVar"	"$col_team_blue[2]"
+		}
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_enemy_r"
+			"resultVar"	"$col_team_enemy[0]"
+		}
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_enemy_g"
+			"resultVar"	"$col_team_enemy[1]"
+		}
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_enemy_b"
+			"resultVar"	"$col_team_enemy[2]"
+		}
+		
+		
+		
+		
+		
+		
+		"Equals"
+		{
+			"srcVar1"	"$theirteam"
+			"resultVar"	"$desiredcolor"
+		}
+		
+		"Select"
+		{
+			"srcVar1" "$sameteam"
+			"resultVar" "$desiredcolor"
+			"default" "$desiredcolor"
+			"0"	"1"
+		}
+		
+		"Select"
+		{
+			"srcVar1" "$ourteam"
+			"resultVar" "$desiredcolor"
+			"default" "$desiredcolor"
+			"0"		"$theirteam"
+			"1"		"$theirteam"
+			"40"	"$theirteam"	//default of our convar
+		}
+		
+		
+		"Health"
+		{
+			"resultVar" "$theirhealth"
+		}
+		
+		"LessOrEqual"
+		{
+			"lessEqualVar" "$zero"
+			"greaterVar" "$desiredcolor"
+			"srcVar1"    "$theirhealth"
+			"srcVar2"    "$zero"
+			"resultVar"  "$desiredcolor"
+		}
+		
+		"Select"
+		{
+			"srcVar1" "$desiredcolor"
+			"resultVar" "$detailtint"
+			"default" "[0 0 0]"
+			"0"	"[0.25 0.25 0.25]"
+			"1"	"$col_team_enemy"
+			"2" "$col_team_red"
+			"3" "$col_team_blue"
+		}
+		
+		//I cant believe this works as well as it does...
+	}
+}

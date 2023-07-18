@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/mapobjects/lamps/slamp3"
+	"$spriteorientation" "vp_parallel"
+	"$nocull" 1
+	"$additive" 1
+	"$color" "[2 2 2]"
+}

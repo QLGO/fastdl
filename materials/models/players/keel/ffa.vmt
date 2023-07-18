@@ -1,0 +1,96 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/players/keel/keel"
+	"$halflambert" "1"
+	
+	"$detail" "models/players/keel/keel"
+	"$detailblendmode" "2"
+	"$detailtint" "[1 1 1]"
+	"$detailscale" "1.0"
+	
+	"$nodecal" 1
+	
+	"$color" "[0.75 0.75 0.75]"
+	"$theirhealth" "1"
+	"$zero" "0"
+	"$one" "1"
+	"$desiredcolor" "0" // 0 = gray, 1 = green
+	
+
+	"$col_team_enemy"	"[0.164 0.8 0]"
+	
+	"$col_team_enemy_r"		"0.164"
+	"$col_team_enemy_g"		"0.8"
+	"$col_team_enemy_b"		"0"
+	
+	"proxies"
+	{
+	
+		"ConVar"
+		{
+			convar 		"ammo_762mm_max"
+			resultVar  	"$col_team_enemy_r"
+		}
+		
+		"ConVar"
+		{
+			convar 		"ammo_357sig_small_max"
+			resultVar  	"$col_team_enemy_g"
+		}
+		
+		"ConVar"
+		{
+			convar 		"ammo_50AE_max"
+			resultVar  	"$col_team_enemy_b"
+		}
+		
+		
+		
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_enemy_r"
+			"resultVar"	"$col_team_enemy[0]"
+		}
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_enemy_g"
+			"resultVar"	"$col_team_enemy[1]"
+		}
+		
+		"Equals"
+		{
+			"srcVar1"	"$col_team_enemy_b"
+			"resultVar"	"$col_team_enemy[2]"
+		}
+		
+		
+
+		
+		
+		"Health"
+		{
+			"resultVar" "$theirhealth"
+		}
+		
+		"LessOrEqual"
+		{
+			"lessEqualVar" "$zero"
+			"greaterVar" "$one"
+			"srcVar1"    "$theirhealth"
+			"srcVar2"    "$zero"
+			"resultVar"  "$desiredcolor"
+		}
+		
+		"Select"
+		{
+			"srcVar1" "$desiredcolor"
+			"resultVar" "$detailtint"
+			"default" "[0 0 0]"
+			"0"	"[0.25 0.25 0.25]"
+			"1"	"$col_team_enemy"
+		}
+
+	}
+}

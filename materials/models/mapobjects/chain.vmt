@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/mapobjects/chain"
+	"$alphatest" 1
+	"$nocull" 1
+}

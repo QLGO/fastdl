@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/mapobjects/jets/jet_as"
+	"$nocull" 1
+	"$additive" "1"
+	"$selfillum" 1
+}
