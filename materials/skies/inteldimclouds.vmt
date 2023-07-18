@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "skies/inteldimclouds"
+	"$nocull" 1
+	"$additive" 1
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"textureScrollVar" "$basetexturetransform"
+			"textureScrollRate" 0.1
+			"textureScrollAngle" -120
+		}
+   }
+}
