@@ -1,0 +1,60 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "map_sinister/item_decal_gl_sand"
+	"$selfillum" 1
+	
+
+	"$br" 1
+	"$mult" 1
+	"$min" 0.4
+	"$max" 1.5
+	
+	Proxies
+	{
+		Sine 
+		{
+			resultVar	"$br"
+			sineperiod	"4"
+			sinemin		"-1.5"
+			sinemax		"1.5"
+		}
+		
+		LessOrEqual
+		{
+			lessEqualVar "$min"
+			greaterVar	 "$br"
+			srcVar1		 "$br"
+			srcVar2		 "$min"
+			resultVar	 "$br"
+		}
+		
+		LessOrEqual
+		{
+			lessEqualVar "$br"
+			greaterVar	 "$max"
+			srcVar1		 "$br"
+			srcVar2		 "$max"
+			resultVar	 "$br"
+		}
+		
+		Equals
+		{
+			srcVar1		"$br"
+			resultVar	"$selfillumtint[0]"
+		}		
+		
+		Multiply
+		{
+			srcVar1		"$br"
+			srcVar2		"$mult"
+			resultVar	"$selfillumtint[1]"
+		}	
+		
+		Multiply
+		{
+			srcVar1		"$br"
+			srcVar2		"$mult"
+			resultVar	"$selfillumtint[2]"
+		}
+	}
+}

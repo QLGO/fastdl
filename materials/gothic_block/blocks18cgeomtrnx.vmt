@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "gothic_block/blocks18cgeomtrnx"
+	
+	Proxies 
+	{
+		
+		AnimatedTexture
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "10"
+		}
+	}
+}

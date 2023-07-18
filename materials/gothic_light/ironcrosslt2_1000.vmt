@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "gothic_light/ironcrosslt2_1000"
+	
+	$nodecal 1
+	
+	$selfillum 1
+	$selfillumtint "[1.8 1.8 1.8]"
+}

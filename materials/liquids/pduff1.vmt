@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "liquids/pduff1"
+	"%compilewater" "1"
+	"$abovewater" "1"
+	"$bottommaterial" "liquids/pduff1"
+}

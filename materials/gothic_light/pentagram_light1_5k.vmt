@@ -1,0 +1,42 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "gothic_light/pentagram_light1_5k"
+	$nodecal 1
+	
+	$selfillum 1
+	$selfillumtint "[1 1 1]"
+	
+	$br 1
+	$mult .7
+	
+	Proxies
+	{
+		Sine 
+		{
+			resultVar	$br 
+			sineperiod	0.9
+			sinemin		1
+			sinemax		3
+		}
+		
+		Equals
+		{
+			srcVar1		$br
+			resultVar	"$selfillumtint[0]"
+		}		
+		
+		Multiply
+		{
+			srcVar1		"$br"
+			srcVar2		"$mult"
+			resultVar	"$selfillumtint[1]"
+		}	
+		
+		Multiply
+		{
+			srcVar1		"$br"
+			srcVar2		"$mult"
+			resultVar	"$selfillumtint[2]"
+		}
+	}
+}

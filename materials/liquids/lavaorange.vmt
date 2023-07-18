@@ -1,0 +1,32 @@
+"UnlitGeneric"
+{
+	"$basetexture" "liquids/lavaorange"
+	"%compilewater" "1"
+	"$abovewater" "1"
+	"$bottommaterial" "liquids/lavaorange"
+	
+	"$center"		"[0.5 0.5]"
+	"$rotate"       "0"
+	"$translate"    "[0 0]"
+	
+	Proxies
+	{		
+		Sine 
+		{
+			resultVar	"$rotate"
+			sineperiod	"10"
+			sinemin		"0"
+			sinemax		"1"
+		}
+		
+		
+		TextureTransform
+		{	
+			centerVar		"$center"
+			rotateVar		"$rotate"
+			translateVar	"$translate"
+			resultVar		"$basetexturetransform"
+		}
+		
+	}
+}
