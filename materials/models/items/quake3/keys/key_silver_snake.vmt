@@ -1,0 +1,24 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/items/quake3/keys/key_silver_snake"
+	"$additive" 1
+	"$selfillum" 1
+	"$nocull" 1
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"textureScrollVar" "$basetexturetransform"
+			"textureScrollRate" 1.046
+			"textureScrollAngle" 157.5
+		}
+		"Sine"
+		{
+			"sineperiod" 2.5
+			"sinemin" "-1.5"
+			"sinemax" "1"
+			"resultVar" "$alpha"
+		}
+   }
+}

@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/items/quake3/item_q3_grenade"
+	
+	$selfillum 1
+	$selfillumtint "[0 3 0]"
+	
+	$dim 3
+	$lit 20
+	$val 0
+	$le 1
+	
+
+	Proxies
+	{
+		Sine 
+		{
+			resultVar	$val 
+			sineperiod	0.285
+			sinemin		0
+			sinemax		2
+		}
+		
+		LessOrEqual
+		{
+			lessEqualVar	$dim
+			greaterVar		$lit
+			srcVar1			$val
+			srcVar2			$le
+			resultVar		"$selfillumtint[1]"
+		}
+	}
+}

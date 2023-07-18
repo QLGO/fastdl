@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/items/quake3/shard2"
+	"$envmap" "models/items/quake3/tinfx2c"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[.225 .225 .225]"
+}

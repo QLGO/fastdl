@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/items/quake3/keys/key_gold"
+		"$envmap" "models/items/quake3/keys/envmap-y"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[.18 .18 .18]"
+}

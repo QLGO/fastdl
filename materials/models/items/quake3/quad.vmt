@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+
+	"$envmap" "models/items/quake3/envmapblue"	
+	"$envmaptint" "[.275 .275 .275]"
+	"$envmapcontrast" 0.75
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+
+	"$envmap" "models/items/quake3/envmapyel"	
+	"$envmaptint" "[.3 .3 .3]"
+	"$envmapcontrast" 1
+}

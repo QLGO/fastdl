@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/items/quake3/armor/newyellow"
+	"$envmap" "sfx/specular"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[.2 .2 .2]"
+}

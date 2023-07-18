@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$envmap" "models/items/quake3/envmapblue2"
+	"$envmaptint" "[.2 .2 .2]"
+	"$envmapcontrast" 0.75
+	"$additive" 1
+}

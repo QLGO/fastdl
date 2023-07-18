@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/items/quake3/keys/key_silver"
+	"$envmap" "models/items/quake3/keys/envmap-b"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[.18 .18 .18]"
+	"$detail" "models/items/quake3/keys/envmap-b_n"
+	"$detailtexturetransform" "center 0.5 0.5 scale 0.5 0.5 rotate 0 translate 0 0"
+	"$detailblendmode" 1
+	"$detailscale" 0.5
+	"$color" "[2.25 2.5 3]"
+	"$detailtint" "[.8 .8 .8]"
+
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/items/quake3/ammo/railammo"
+	"$envmap" "models/items/quake3/envmaprail"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[.2 .2 .2]"
+	"$noenvmapmip" 1
+}

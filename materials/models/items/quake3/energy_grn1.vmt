@@ -1,0 +1,39 @@
+"UnlitGeneric"
+{
+
+	"$basetexture" "effects/envmaprail"
+	"$additive" 1
+
+
+	"$angle" 0.0
+	"$center" "[1.3 1.3]"
+	"$scale" "[.3 .3]"
+	
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" 3
+			"sinemin" "-2"
+			"sinemax" "1"
+			"resultVar" "$color"
+		}
+	
+	
+		"LinearRamp"
+		{
+			"rate" 150
+			"initialValue" 0.0
+			"resultVar" "$angle"
+		}
+
+
+		"TextureTransform"
+		{
+			"centerVar" "$center"
+			"rotateVar" "$angle"
+			"scaleVar" "$scale"
+			"resultVar" "$basetexturetransform"
+		}
+	}
+}

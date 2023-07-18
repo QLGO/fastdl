@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/items/quake3/q3_rocket2"
+	"$model" 1
+	"$additive" 1
+}
